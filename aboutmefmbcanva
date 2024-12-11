@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Branded Graphic Mock-Up</title>
+    <style>
+        body {
+            font-family: 'Arial, sans-serif';
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f7efe4; /* Warm Cream */
+            height: 100vh;
+        }
+
+        .card {
+            background: linear-gradient(135deg, #c1d3c2 30%, #ddeaf1 70%); /* Sage Green to Powder Blue */
+            border-radius: 16px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header {
+            color: #366376; /* Deep Teal */
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .sub-header {
+            color: #785161; /* Rich Mauve */
+            font-size: 1em;
+            margin-bottom: 20px;
+        }
+
+        .cta-button {
+            background-color: #e99630; /* Vibrant Orange */
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 0.9em;
+            font-weight: bold;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s;
+        }
+
+        .cta-button:hover {
+            transform: scale(1.05);
+        }
+
+        .footer {
+            color: #c35d3b; /* Earthy Brick */
+            font-size: 0.8em;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1 class="header">Discover Your Bliss</h1>
+        <p class="sub-header">Empowering your transformation with Human Design, Bliss Coaching, and Essential Oils.</p>
+        <button class="cta-button">Learn More</button>
+        <p class="footer">Experience the journey of self-love and alignment today.</p>
+    </div>
+</body>
+</html>
